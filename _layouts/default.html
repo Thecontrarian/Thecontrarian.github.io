@@ -22,7 +22,13 @@
     <div class="initial-content">
       {{ content }}
     </div>
-
+<nav>
+            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/research">Reserach</a>
+          <a href="{{ site.baseurl }}/publications">Publications</a>
+           <a href="{{ site.baseurl }}/resources">Resources</a>
+          </nav>
     {% if site.search == true %}
       <div class="search-content">
         {% include_cached search/search_form.html %}
